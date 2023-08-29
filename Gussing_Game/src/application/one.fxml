@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="348.0" prefWidth="467.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.con1">
+   <children>
+      <Label layoutX="103.0" layoutY="26.0" text="Number Gussing Game">
+         <font>
+            <Font name="Calibri Bold Italic" size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="display" alignment="CENTER" layoutX="1.0" layoutY="126.0" prefHeight="30.0" prefWidth="467.0" text="Number is XXXX">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textfield" layoutX="88.0" layoutY="171.0" prefHeight="26.0" prefWidth="169.0" promptText="Find a Number" />
+      <Label fx:id="chances" alignment="CENTER_RIGHT" layoutX="358.0" layoutY="88.0" prefHeight="30.0" prefWidth="90.0" text="Count 0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="278.0" layoutY="171.0" mnemonicParsing="false" onAction="#submit" prefHeight="26.0" prefWidth="90.0" text="Submit" />
+   </children>
+</AnchorPane>
